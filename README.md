@@ -3,7 +3,7 @@
 Sarcina de învățare abordată în acest proiect este o problemă de clasificare binară. Obiectivul este de a construi un model capabil să prezică șansele de supraviețuire ale pasagerilor de pe nava Titanic, în funcție de caracteristicile lor.
 
 ### 2. Baza de date
-Baza de date folosită este fișierul “train.csv” obținut de pe platforma Kaggle (link competiție). Acesta conține date despre supraviețuitorii din dezastrul Titanicului și este utilizat ca set de antrenare într-o competiție de predicție a supraviețuirii pasagerilor pe baza anumitor caracteristici precum vârsta, sexul și clasa.
+Baza de date folosită este fișierul “train.csv” obținut de pe platforma Kaggle ([link competiție](https://www.kaggle.com/competitions/titanic/overview)). Acesta conține date despre supraviețuitorii din dezastrul Titanicului și este utilizat ca set de antrenare într-o competiție de predicție a supraviețuirii pasagerilor pe baza anumitor caracteristici precum vârsta, sexul și clasa.
 Fișierul train.csv conține 891 de exemple, din care am folosit 4 caracteristici relevante: Vârstă, Sex, Clasa (Pclass) și un label binar Supraviețuit (0 sau 1). Fișierul conține și alte informații precum numele pasagerilor, dar acestea nu au fost utilizate în modelul meu. Datele au fost împărțite în set de antrenare (80%) și set de testare (20%) pentru evaluarea modelului.
 
 ### 3. Algoritmi de optimizare implementați
