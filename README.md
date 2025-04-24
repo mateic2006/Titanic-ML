@@ -18,6 +18,7 @@ ADAM este un algoritm de optimizare bazat pe gradient, similar cu SGD, dar care 
 
 4. Rezultate și comentarii
 Rezultatele obținute pentru fiecare algoritm de optimizare sunt prezentate mai jos:
+
 | Metrica                | SGD    | ADAM   |
 |------------------------|--------|--------|
 | Timp de antrenare (sec)| 108.48 | 139.48 |
@@ -25,6 +26,7 @@ Rezultatele obținute pentru fiecare algoritm de optimizare sunt prezentate mai 
 | Precizie               | 0.85   | 0.82   |
 | Recall                 | 0.81   | 0.91   |
 | Scor F1                | 0.835  | 0.864  |
+
 Observăm că algoritmul ADAM a obținut rezultate superioare în termeni de acuratețe, precizie, recall și scor F1, în comparație cu SGD. Cu toate acestea, SGD a avut un timp de antrenare mai rapid.
 
 De asemenea, scăderea funcțiilor de pierdere a fost reprezentată grafic pentru ambii algoritmi, oferind o perspectivă vizuală asupra procesului de optimizare.
